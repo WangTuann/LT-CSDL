@@ -1,0 +1,26 @@
+﻿<SinhViens>
+	<SinhVien>
+		<mssv>1910152</mssv>
+		<ho>Trương Quang</ho>
+		<ten>Tuấn</ten>
+		<ngaySinh>24/02/2001</ngaySinh>
+		<lop>CTK43</lop>
+		<cmnd>9999999999</cmnd>
+		<sdt>0334502288</sdt>
+		<diaChi>Đà Lạt, Lâm Đồng</diaChi>
+		<gioiTinh>1</gioiTinh>
+		<monHoc>Mạng máy tính,Hệ điều hành,Lập trình CSDL,Lập trình trên thiết bị di động</monHoc>
+	</SinhVien>
+	<SinhVien>
+		<mssv>19111136</mssv>
+		<ho>Nguyễn Việt Duy</ho>
+		<ten>Danh</ten>
+		<ngaySinh>21/12/2001</ngaySinh>
+		<lop>CTK43</lop>
+		<cmnd>123456789</cmnd>
+		<sdt>01234567891</sdt>
+		<diaChi>Đà Lạt, Lâm Đồng</diaChi>
+		<gioiTinh>1</gioiTinh>
+		<monHoc>Mạng máy tính,Hệ điều hành,Lập trình CSDL,Lập trình trên thiết bị di động</monHoc>
+	</SinhVien>
+</SinhViens>

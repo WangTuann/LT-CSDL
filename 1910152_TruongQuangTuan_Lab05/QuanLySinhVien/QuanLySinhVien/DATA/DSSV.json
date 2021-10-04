@@ -1,0 +1,27 @@
+[
+    {
+        "mssv": "1910152",
+        "hotenlot": "Truong Quang",
+        "cmnd": "251157889",
+        "gioiTinh": 1,
+        "ngaySinh": "24/02/2001",
+        "diaChi": "Ðà L?t, Lâm Ð?ng",
+        "ten": "Tu?n",
+        "lop": "CTK43",
+        "sdt": "0334502288",
+        "monHoc": [ "M?ng máy tính","H? di?u hành","L?p trình CSDL","L?p trình trên thi?t b? di d?ng","Ð? án co s?" ]
+    },
+    {
+        "mssv": "1911136",
+        "hotenlot": "Nguy?n Vi?t Duy",
+        "cmnd": "123456789",
+        "gioiTinh": 1,
+        "ngaySinh": "12/21/2001",
+        "diaChi": "Ðà L?t, Lâm Ð?ng",
+        "ten": "Danh",
+        "lop": "CTK43",
+        "sdt": "0123123123",
+        "monHoc": [ "M?ng máy tính","H? di?u hành","L?p trình CSDL","L?p trình trên thi?t b? di d?ng","Ð? án co s?" ]
+    },
+
+]

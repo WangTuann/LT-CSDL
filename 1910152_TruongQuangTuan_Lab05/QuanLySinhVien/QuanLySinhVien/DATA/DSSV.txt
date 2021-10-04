@@ -1,0 +1,6 @@
+﻿1512451*Nguyễn Xuân Thắng*5/12/1998*CTK43*2511571234*0985725481*01 Phù Đổng Thiên Vương, P8, Đà Lạt*Đồ án cơ sở,Phương pháp NCKH,Lập trình trên thiết bị di động,Lập trình CSDL
+1610195*Nguyễn Đức Duy Ân*02/24/1998*CTK43*2511571234*084617393*01 Phù Đổng Thiên Vương, P8, Đà Lạt*Đồ án cơ sở,Phương pháp NCKH,Lập trình trên thiết bị di động,Lập trình CSDL	
+1610167*Nguyễn Quốc Anh*08/10/1998*CTK43*2511571234*0975628590*01 Phù Đổng Thiên Vương, P8, Đà Lạt*Phương pháp NCKH,Mạng máy tính,An toàn và bảo mật		
+1611288*Lê Nhật Ánh*10/07/1998*CTK43*2511571234*0714285091*01 Phù Đổng Thiên Vương, P8, Đà Lạt*Phương pháp NCKH,Mạng máy tính,An toàn và bảo mật
+1612166*Võ Thị Thu Ngân*03/16/1998*CTK43*2511571234**0974719593*01 Phù Đổng Thiên Vương, P8, Đà Lạt*Lập trình trên thiết bị di động,Lập trình CSDL	
+1610089*Hứa Duy Băng*01/18/1998*CTK43*2511571234*0123445678**01 Phù Đổng Thiên Vương, P8, Đà Lạt*Lập trình trên thiết bị di động,Lập trình CSDL	
