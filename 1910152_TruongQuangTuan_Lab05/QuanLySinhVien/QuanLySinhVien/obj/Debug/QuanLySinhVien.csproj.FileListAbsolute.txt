@@ -8,3 +8,16 @@ D:\IT-STUDY\LT-CSDL\GIT\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhV
 D:\IT-STUDY\LT-CSDL\GIT\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
 D:\IT-STUDY\LT-CSDL\GIT\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
 D:\IT-STUDY\LT-CSDL\GIT\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.csprojAssemblyReference.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.Form1.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.Properties.Resources.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.GenerateResource.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\bin\Debug\Newtonsoft.Json.dll
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\bin\Debug\Newtonsoft.Json.xml
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_Lab05\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CopyComplete

@@ -4,17 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace QuanLySinhVien.Model
 {
-    public delegate int SoSanh(object sv1, object sv2);
-    public class QuanLySinhVien
+    
+   
+    public class QLSinhVien
 
     {
-        
+        Context context;
+        public delegate int SoSanh(object sv1, object sv2);
         public List<SinhVien> DanhSach;
-        public QuanLySinhVien()
+
+        public QLSinhVien(Context context)
         {
-            DanhSach = new List<SinhVien>();
+            this.context = context;
+            DanhSach = context.GetSV();
         }
         public void Them(SinhVien sv)
         {

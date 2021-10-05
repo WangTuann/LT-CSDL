@@ -94,7 +94,6 @@ namespace QuanLySinhVien
             this.clbMonHoc.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.clbMonHoc.Size = new System.Drawing.Size(480, 72);
             this.clbMonHoc.TabIndex = 58;
-            this.clbMonHoc.SelectedIndexChanged += new System.EventHandler(this.clbMonHoc_SelectedIndexChanged);
             // 
             // groupBox1
             // 
@@ -187,7 +186,6 @@ namespace QuanLySinhVien
             this.btnThoat.TabIndex = 56;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // button3
             // 
@@ -198,7 +196,6 @@ namespace QuanLySinhVien
             this.button3.TabIndex = 55;
             this.button3.Text = "Cập nhật";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnThemSV
             // 
@@ -209,7 +206,6 @@ namespace QuanLySinhVien
             this.btnThemSV.TabIndex = 54;
             this.btnThemSV.Text = "Thêm mới";
             this.btnThemSV.UseVisualStyleBackColor = true;
-            this.btnThemSV.Click += new System.EventHandler(this.btnThemSV_Click);
             // 
             // btnTimKiem
             // 
@@ -220,7 +216,6 @@ namespace QuanLySinhVien
             this.btnTimKiem.TabIndex = 53;
             this.btnTimKiem.Text = "Tím kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
-            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // mtxtSDT
             // 
@@ -470,6 +465,7 @@ namespace QuanLySinhVien
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

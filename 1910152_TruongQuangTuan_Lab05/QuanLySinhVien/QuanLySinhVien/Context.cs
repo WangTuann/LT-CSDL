@@ -11,12 +11,12 @@ namespace QuanLySinhVien
     public class Context
     {
         private static Context singleObject;
-        private List<SinhVien> listSV;
-        private ISVDataSource dataSource;
+        private List<SinhVien> _sinhVien;
+        private ISVDataSource _dataSource;
 
-        private Context(ISVDataSource dataSource)
+        public   Context(ISVDataSource dataSource)
         {
-            this.dataSource = dataSource;
+            _dataSource = dataSource;
         }
 
         public static Context getInstance(ISVDataSource dataSource)
@@ -30,13 +30,14 @@ namespace QuanLySinhVien
 
         public List<SinhVien> GetSV()
         {
-            if (listSV == null) listSV = dataSource.GetSV();
-            return listSV;
+            if (_sinhVien == null) 
+                _sinhVien= _dataSource.GetSV();
+            return _sinhVien;
         }
 
         public void SaveSV()
         {
-            dataSource.Save(listSV);
+            _dataSource.Save(_sinhVien);
         }
     }
 }

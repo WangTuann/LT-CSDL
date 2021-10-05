@@ -17,12 +17,13 @@ namespace QuanLySinhVien.Model
         public bool GioiTinh { get; set; }
         public string SoDienThoai { get; set; }
         public string Email { get; set; }
-        List<String> monhoc { get; set; }
+        public string CMND { get; set; }
+        public List<String> monhoc { get; set; }
 
 
 
         public SinhVien(string ms, string ht, DateTime ngay, string ten,
- string dc, string lop, string hinh, bool gt, string sdt, string mail)
+ string dc, string lop, string hinh, bool gt, string sdt, string mail,string cmnd,List<string> monhoc)
         {
             this.MaSo = ms;
             this.HoTenLot = ht;
@@ -33,6 +34,8 @@ namespace QuanLySinhVien.Model
             this.SoDienThoai = sdt;
             this.Email = mail;
             this.Ten = ten;
+            this.CMND = cmnd;
+            this.monhoc = monhoc;
 
         }
 
