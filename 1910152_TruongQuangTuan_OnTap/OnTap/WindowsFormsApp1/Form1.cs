@@ -18,6 +18,7 @@ namespace OnTap_QLSV
     {
         List<SinhVien> sinhVienList;
         QuanLySinhVien qlsv;
+        private const string _placeHolderText = "Nhập thông tin cần tìm !!!!";
         string fileName;
         private readonly NewRepo newRepo;
 
@@ -44,10 +45,10 @@ namespace OnTap_QLSV
             this.lvSinhVien.Items.Add(lvitem);
         }
 
-        private void LoadListView(List<SinhVien>danhSach)
+        private void LoadListView(List<SinhVien> danhSach)
         {
             this.lvSinhVien.Items.Clear();
-            foreach (SinhVien sv in qlsv.danhSach)
+            foreach (SinhVien sv in danhSach)
             {
                 ThemSV(sv);
             }
@@ -115,8 +116,28 @@ namespace OnTap_QLSV
             //qlsv.DocTuFile();
             LoadListView(qlsv.danhSach);
             ShowFeedOnTreeView(newRepo.GetKhoa());
-            LoadListView(qlsv.danhSach);
+            SetUpSearchInputText();
 
+        }
+
+        private void SetUpSearchInputText()
+        {
+            txtSearch.Text = _placeHolderText;
+            txtSearch.GotFocus += RemovePlaceHolerText;
+            txtSearch.LostFocus += ShowPlaceHolderText;
+        }
+       
+
+        private void ShowPlaceHolderText(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtSearch.Text))
+                txtSearch.Text = _placeHolderText;
+        }
+
+        private void RemovePlaceHolerText(object sender, EventArgs e)
+        {
+            if (txtSearch.Text == _placeHolderText)
+                txtSearch.Text = "";
         }
         private void tvwKhoa_AfterSelect(object sender, TreeViewEventArgs e)
         {
@@ -128,14 +149,110 @@ namespace OnTap_QLSV
                 dsKQ = qlsv.DSTim(tenKhoa.Trim(), SoSanhTheoLop);
                 LoadListView(dsKQ);
             }
-            else if (true)
+            else if (e.Node.Level > 0)
             {
                 string tenLop = tvwKhoa.SelectedNode.Text;
                 dsKQ = qlsv.DSTim(tenLop.Trim(), SoSanhTheoLop);
                 LoadListView(dsKQ);
             }
         }
-        
+
+        //private void txtSearch_TextChanged(object sender, EventArgs e)
+        //{
+        //    SinhVien sv = null;
+        //    KieuTim kieu = KieuTim.MSSV;
+        //    if (rdMSSV.Checked)
+        //        kieu = KieuTim.MSSV;
+        //    if (rdTen.Checked)
+        //        kieu = KieuTim.Ten;
+        //    if (rdSDT.Checked)
+        //        kieu = KieuTim.SDT;
+
+
+        //    switch (kieu)
+        //    {
+        //        case KieuTim.Ten:
+        //            sv = qlsv.danhSach.Find(x => x.Ten == txtSearch.Text);
+        //            break;
+        //        case KieuTim.MSSV:
+        //            sv = qlsv.danhSach.Find(x => x.MSSV == txtSearch.Text);
+        //            break;
+        //        case KieuTim.SDT:
+        //            sv = qlsv.danhSach.Find(x => x.NgaySinh.Day == int.Parse(txtSearch.Text));
+        //            break;
+        //        default:
+        //            break;
+        //    }
+
+        //        ListViewItem item = new ListViewItem(sv.MSSV);
+        //        item.SubItems.Add(sv.Ten);
+        //        item.SubItems.Add(sv.MSSV);
+        //        item.SubItems.Add(sv.TenLot);
+        //        item.SubItems.Add(sv.Lop);
+        //        item.SubItems.Add(sv.GioiTinh ? "Nam" : "Nữ");
+        //        item.SubItems.Add(sv.Sdt);
+        //        item.SubItems.Add(sv.DiaChi);
+        //        item.SubItems.Add(sv.Khoa);
+        //        item.SubItems.Add(sv.NgaySinh.ToString("dd/MM/yyyy"));
+
+        //        lvSinhVien.Items.Clear();
+        //        lvSinhVien.Items.Add(item);
+
+        //}
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            List<SinhVien> dsKQ = new List<SinhVien>();
+            lvSinhVien.Items.Clear();
+            if (rdMSSV.Checked)
+            {
+                foreach (var sv in qlsv.danhSach)
+                    if (sv.MSSV.ToLower().StartsWith(txtSearch.Text.Trim().ToLower()))
+                        dsKQ.Add(sv);
+                LoadListView(dsKQ);
+            }
+            if (rdTen.Checked)
+            {
+                foreach (var sv in qlsv.danhSach)
+                    if (sv.Ten.ToLower().StartsWith(txtSearch.Text.Trim().ToLower()))
+                        dsKQ.Add(sv);
+                LoadListView(dsKQ);
+            }
+            if (rdSDT.Checked)
+            {
+                foreach (var sv in qlsv.danhSach)
+                    if (sv.Sdt.ToLower().StartsWith(txtSearch.Text.Trim().ToLower()))
+                        dsKQ.Add(sv);
+                LoadListView(dsKQ);
+            }
+            if (txtSearch.Text == _placeHolderText)
+                LoadListView(qlsv.danhSach);
+
+        }
+        //xoa
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            int count;
+            ListViewItem lvItems;
+            count = lvSinhVien.Items.Count - 1;
+            for (int i = count; i>=0; i--)
+            {
+                lvItems = lvSinhVien.Items[i];
+                if (lvItems.Selected)
+                {
+                    qlsv.Xoa(lvItems.SubItems[0].Text, SoSanhTheoMa);
+                }
+            }
+            LoadListView(qlsv.danhSach);
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            List<SinhVien> dsKQ = new List<SinhVien>();
+            frmStudentInfo frm = new frmStudentInfo();
+            int count = lvSinhVien.SelectedItems.Count;
+        }
     }
 }
 

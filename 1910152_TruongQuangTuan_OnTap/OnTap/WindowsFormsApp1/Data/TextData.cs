@@ -15,7 +15,7 @@ namespace OnTap_QLSV.Data
         {
             this.fileName = fileName;
         }
-
+        //doc text
         public List<SinhVien> GetSV()
         {
             List<SinhVien> listSV = new List<SinhVien>();
