@@ -1,0 +1,11 @@
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap.csproj.AssemblyReference.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap.csproj.GenerateResource.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap.csproj.CoreCompileInputs.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap_QLSV.Form1.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap_QLSV.Properties.Resources.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\bin\Debug\OnTap_QLSV.exe.config
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\bin\Debug\OnTap_QLSV.exe
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\bin\Debug\OnTap_QLSV.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap_QLSV.exe
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap_QLSV.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\bin\Debug\Data\data.txt

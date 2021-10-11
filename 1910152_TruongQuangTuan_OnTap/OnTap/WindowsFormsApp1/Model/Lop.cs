@@ -4,17 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp1
+namespace OnTap_QLSV.Model
 {
     public class Lop
     {
-        public string TenLop { get; set; }
-  
-        public List<SinhVien> listSinhVien { get; set; }
+        public string Name { get; set; }
+
+        public Lop(string name)
+        {
+            Name = name;
+        }
         public Lop()
         {
-            listSinhVien = new List<SinhVien>();
+
         }
- 
     }
 }
