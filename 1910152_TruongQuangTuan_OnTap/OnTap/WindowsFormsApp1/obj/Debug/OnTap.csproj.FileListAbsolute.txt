@@ -9,3 +9,4 @@ D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsForms
 D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap_QLSV.exe
 D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap_QLSV.pdb
 D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\bin\Debug\Data\data.txt
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\1910152_TruongQuangTuan_OnTap\OnTap\WindowsFormsApp1\obj\Debug\OnTap_QLSV.frmStudentInfo.resources

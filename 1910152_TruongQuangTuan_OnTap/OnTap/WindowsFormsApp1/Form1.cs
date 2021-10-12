@@ -146,7 +146,7 @@ namespace OnTap_QLSV
             if (e.Node.Level == 0)
             {
                 string tenKhoa = tvwKhoa.SelectedNode.Text;
-                dsKQ = qlsv.DSTim(tenKhoa.Trim(), SoSanhTheoLop);
+                dsKQ = qlsv.DSTim(tenKhoa.Trim(), SoSanhTheoKhoa);
                 LoadListView(dsKQ);
             }
             else if (e.Node.Level > 0)
@@ -236,15 +236,19 @@ namespace OnTap_QLSV
             int count;
             ListViewItem lvItems;
             count = lvSinhVien.Items.Count - 1;
-            for (int i = count; i>=0; i--)
+            DialogResult dlg= MessageBox.Show("Bạn có chắc muốn xóa sinh viên khỏi danh sách?!!", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (dlg == DialogResult.Yes)
             {
-                lvItems = lvSinhVien.Items[i];
-                if (lvItems.Selected)
+                for (int i = count; i >= 0; i--)
                 {
-                    qlsv.Xoa(lvItems.SubItems[0].Text, SoSanhTheoMa);
+                    lvItems = lvSinhVien.Items[i];
+                    if (lvItems.Selected)
+                    {
+                        qlsv.Xoa(lvItems.SubItems[0].Text, SoSanhTheoMa);
+                    }
                 }
-            }
-            LoadListView(qlsv.danhSach);
+                }
+                LoadListView(qlsv.danhSach);
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
@@ -252,6 +256,24 @@ namespace OnTap_QLSV
             List<SinhVien> dsKQ = new List<SinhVien>();
             frmStudentInfo frm = new frmStudentInfo();
             int count = lvSinhVien.SelectedItems.Count;
+            if (count > 0)
+            {
+                ListViewItem item = lvSinhVien.SelectedItems[0];
+                frm.tenKhoa = GetKhoa(GetSVLV(item));
+                frm.tenLop = GetLop(GetSVLV(item));
+            }
+            else
+            {
+                ListViewItem item = lvSinhVien.Items[0];
+                frm.tenKhoa = GetKhoa(GetSVLV(item));
+                frm.tenLop = GetLop(GetSVLV(item));
+            }
+
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                dsKQ = qlsv.DSTim(frm.tenLop.Trim(), SoSanhTheoLop);
+                LoadListView(dsKQ);
+            }
         }
     }
 }
