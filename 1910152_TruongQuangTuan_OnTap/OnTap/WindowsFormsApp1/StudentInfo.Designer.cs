@@ -48,6 +48,7 @@ namespace OnTap_QLSV
             this.txtTen = new System.Windows.Forms.TextBox();
             this.cbbKhoa = new System.Windows.Forms.ComboBox();
             this.mtkMSSV = new System.Windows.Forms.MaskedTextBox();
+            this.btnLuu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -131,7 +132,7 @@ namespace OnTap_QLSV
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(444, 83);
+            this.label8.Location = new System.Drawing.Point(445, 109);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(36, 17);
@@ -142,7 +143,7 @@ namespace OnTap_QLSV
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(444, 113);
+            this.label9.Location = new System.Drawing.Point(444, 79);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(41, 17);
@@ -210,7 +211,7 @@ namespace OnTap_QLSV
             // cbbLop
             // 
             this.cbbLop.FormattingEnabled = true;
-            this.cbbLop.Location = new System.Drawing.Point(515, 79);
+            this.cbbLop.Location = new System.Drawing.Point(515, 109);
             this.cbbLop.Margin = new System.Windows.Forms.Padding(2);
             this.cbbLop.Name = "cbbLop";
             this.cbbLop.Size = new System.Drawing.Size(151, 21);
@@ -227,11 +228,12 @@ namespace OnTap_QLSV
             // cbbKhoa
             // 
             this.cbbKhoa.FormattingEnabled = true;
-            this.cbbKhoa.Location = new System.Drawing.Point(515, 109);
+            this.cbbKhoa.Location = new System.Drawing.Point(515, 75);
             this.cbbKhoa.Margin = new System.Windows.Forms.Padding(2);
             this.cbbKhoa.Name = "cbbKhoa";
             this.cbbKhoa.Size = new System.Drawing.Size(151, 21);
             this.cbbKhoa.TabIndex = 9;
+            this.cbbKhoa.SelectedIndexChanged += new System.EventHandler(this.cbbKhoa_SelectedIndexChanged);
             // 
             // mtkMSSV
             // 
@@ -241,11 +243,22 @@ namespace OnTap_QLSV
             this.mtkMSSV.Size = new System.Drawing.Size(151, 20);
             this.mtkMSSV.TabIndex = 0;
             // 
+            // btnLuu
+            // 
+            this.btnLuu.Location = new System.Drawing.Point(576, 180);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(75, 23);
+            this.btnLuu.TabIndex = 19;
+            this.btnLuu.Text = "Lưu";
+            this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
+            // 
             // frmStudentInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(770, 215);
+            this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.mtkMSSV);
             this.Controls.Add(this.cbbKhoa);
             this.Controls.Add(this.cbbLop);
@@ -276,24 +289,25 @@ namespace OnTap_QLSV
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtHoLot;
-        private System.Windows.Forms.DateTimePicker dtpNgaySinh;
-        private System.Windows.Forms.MaskedTextBox mtkbSDT;
-        private System.Windows.Forms.TextBox txtDiaChi;
-        private System.Windows.Forms.RadioButton rdNam;
-        private System.Windows.Forms.RadioButton rdNu;
-        private System.Windows.Forms.ComboBox cbbLop;
-        private System.Windows.Forms.TextBox txtTen;
-        private System.Windows.Forms.ComboBox cbbKhoa;
-        private System.Windows.Forms.MaskedTextBox mtkMSSV;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.Label label9;
+        public System.Windows.Forms.TextBox txtHoLot;
+        public System.Windows.Forms.DateTimePicker dtpNgaySinh;
+        public System.Windows.Forms.MaskedTextBox mtkbSDT;
+        public System.Windows.Forms.TextBox txtDiaChi;
+        public System.Windows.Forms.RadioButton rdNam;
+        public System.Windows.Forms.RadioButton rdNu;
+        public System.Windows.Forms.ComboBox cbbLop;
+        public System.Windows.Forms.TextBox txtTen;
+        public System.Windows.Forms.ComboBox cbbKhoa;
+        public System.Windows.Forms.MaskedTextBox mtkMSSV;
+        public System.Windows.Forms.Button btnLuu;
     }
 }

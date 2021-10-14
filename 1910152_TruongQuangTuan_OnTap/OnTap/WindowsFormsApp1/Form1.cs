@@ -42,6 +42,7 @@ namespace OnTap_QLSV
             lvitem.SubItems.Add(sv.NgaySinh.ToShortDateString());
             lvitem.SubItems.Add(sv.Sdt);
             lvitem.SubItems.Add(sv.Lop);
+            lvitem.SubItems.Add(sv.Khoa);
             this.lvSinhVien.Items.Add(lvitem);
         }
 
@@ -65,7 +66,7 @@ namespace OnTap_QLSV
                 Sdt = item.SubItems[5].Text,
                 Lop = item.SubItems[6].Text,
                 Khoa = item.SubItems[7].Text,
-                DiaChi = item.SubItems[8].Text
+                //DiaChi = item.SubItems[8].Text
             };
         }
         private void ShowFeedOnTreeView(List<Khoa> dsKhoa)
@@ -108,6 +109,9 @@ namespace OnTap_QLSV
             SinhVien sv = obj2 as SinhVien;
             return sv.Ten.CompareTo(obj1);
         }
+
+        
+
         #endregion
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -126,7 +130,7 @@ namespace OnTap_QLSV
             txtSearch.GotFocus += RemovePlaceHolerText;
             txtSearch.LostFocus += ShowPlaceHolderText;
         }
-       
+
 
         private void ShowPlaceHolderText(object sender, EventArgs e)
         {
@@ -231,12 +235,42 @@ namespace OnTap_QLSV
         }
         //xoa
 
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+
+
+        //private void tsmThem_Click(object sender, EventArgs e)
+        //{
+        //    {
+        //        List<SinhVien> dsKQ = new List<SinhVien>();
+        //        frmStudentInfo frm = new frmStudentInfo(qlsv,newRepo);
+        //        int count = lvSinhVien.SelectedItems.Count;
+        //        if (count > 0)
+        //        {
+        //            ListViewItem item = lvSinhVien.SelectedItems[0];
+        //            frm.tenKhoa = GetKhoa(GetSVLV(item));
+        //            frm.tenLop = GetLop(GetSVLV(item));
+        //        }
+        //        else
+        //        {
+        //            ListViewItem item = lvSinhVien.Items[0];
+        //            frm.tenKhoa = GetKhoa(GetSVLV(item));
+        //            frm.tenLop = GetLop(GetSVLV(item));
+        //        }
+
+        //        if (frm.ShowDialog() == DialogResult.OK)
+        //        {
+        //            dsKQ = qlsv.DSTim(frm.tenLop.Trim(), SoSanhTheoLop);
+        //            LoadListView(dsKQ);
+        //        }
+        //        frm.ShowDialog();
+        //    }
+        //}
+
+        private void tsmXoa_Click(object sender, EventArgs e)
         {
             int count;
             ListViewItem lvItems;
             count = lvSinhVien.Items.Count - 1;
-            DialogResult dlg= MessageBox.Show("Bạn có chắc muốn xóa sinh viên khỏi danh sách?!!", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            DialogResult dlg = MessageBox.Show("Bạn có chắc muốn xóa sinh viên khỏi danh sách?!!", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (dlg == DialogResult.Yes)
             {
                 for (int i = count; i >= 0; i--)
@@ -247,34 +281,59 @@ namespace OnTap_QLSV
                         qlsv.Xoa(lvItems.SubItems[0].Text, SoSanhTheoMa);
                     }
                 }
-                }
-                LoadListView(qlsv.danhSach);
+            }
+            LoadListView(qlsv.danhSach);
         }
 
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        private void tsmThem_Click_1(object sender, EventArgs e)
         {
-            List<SinhVien> dsKQ = new List<SinhVien>();
-            frmStudentInfo frm = new frmStudentInfo();
+            frmStudentInfo frm = new frmStudentInfo(qlsv, newRepo);
+            frm.ShowDialog();
+
+        }
+
+       
+
+        private void lvSinhVien_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            frmStudentInfo frm = new frmStudentInfo(qlsv, newRepo);
+            SinhVien sinhVien = new SinhVien();
             int count = lvSinhVien.SelectedItems.Count;
             if (count > 0)
             {
                 ListViewItem item = lvSinhVien.SelectedItems[0];
-                frm.tenKhoa = GetKhoa(GetSVLV(item));
-                frm.tenLop = GetLop(GetSVLV(item));
+                frm.sv = GetSVLV(item);
+                frm.mtkMSSV.Text = sinhVien.MSSV;
+                frm.txtHoLot.Text = sinhVien.TenLot;
+                frm.txtTen.Text = sinhVien.Ten;
+                frm.cbbKhoa.Text= sinhVien.Khoa;
+                frm.cbbLop.Text = sinhVien.Lop;
+                frm.mtkbSDT.Text = sinhVien.Sdt;
+                if (sinhVien.GioiTinh) frm.rdNam.Checked = true;
+                else frm.rdNu.Checked = true;
+                frm.txtDiaChi.Text = sinhVien.DiaChi;
             }
-            else
-            {
-                ListViewItem item = lvSinhVien.Items[0];
-                frm.tenKhoa = GetKhoa(GetSVLV(item));
-                frm.tenLop = GetLop(GetSVLV(item));
+            frm.ShowDialog();
             }
 
-            if (frm.ShowDialog() == DialogResult.OK)
-            {
-                dsKQ = qlsv.DSTim(frm.tenLop.Trim(), SoSanhTheoLop);
-                LoadListView(dsKQ);
-            }
+        private void jSONToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+                SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+                saveFileDialog1.DefaultExt = "json";
+                saveFileDialog1.Filter = "Json file (.json)|.*";
+                saveFileDialog1.AddExtension = true;
+                saveFileDialog1.RestoreDirectory = true;
+                saveFileDialog1.Title = "Bạn muốn lưu file " + saveFileDialog1.FileName + " ở đâu?";
+                saveFileDialog1.InitialDirectory = @"D:";
+                saveFileDialog1.FileName = "DanhSach";
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    qlsv.JsonFile(qlsv.danhSach, saveFileDialog1.FileName);
+                    MessageBox.Show("Lưu thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                saveFileDialog1.Dispose();   
         }
     }
-}
+    }
+
 

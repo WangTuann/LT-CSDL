@@ -42,17 +42,21 @@ namespace OnTap_QLSV
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tsmThem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmXoa = new System.Windows.Forms.ToolStripMenuItem();
             this.rdSDT = new System.Windows.Forms.RadioButton();
             this.rdTen = new System.Windows.Forms.RadioButton();
             this.rdMSSV = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.nhậpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lưuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.jSONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eXCELToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -68,7 +72,7 @@ namespace OnTap_QLSV
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(228, 331);
+            this.groupBox1.Size = new System.Drawing.Size(228, 370);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn lớp để hiển thị danh sách sinh viên";
@@ -80,7 +84,7 @@ namespace OnTap_QLSV
             this.tvwKhoa.Location = new System.Drawing.Point(4, 17);
             this.tvwKhoa.Margin = new System.Windows.Forms.Padding(2);
             this.tvwKhoa.Name = "tvwKhoa";
-            this.tvwKhoa.Size = new System.Drawing.Size(220, 310);
+            this.tvwKhoa.Size = new System.Drawing.Size(220, 349);
             this.tvwKhoa.TabIndex = 0;
             this.tvwKhoa.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvwKhoa_AfterSelect);
             // 
@@ -99,7 +103,7 @@ namespace OnTap_QLSV
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(720, 356);
+            this.groupBox2.Size = new System.Drawing.Size(949, 395);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm kiếm";
@@ -125,7 +129,9 @@ namespace OnTap_QLSV
             this.columnHeader4,
             this.columnHeader5,
             this.columnHeader6,
-            this.columnHeader7});
+            this.columnHeader7,
+            this.columnHeader8,
+            this.columnHeader9});
             this.lvSinhVien.ContextMenuStrip = this.contextMenuStrip1;
             this.lvSinhVien.FullRowSelect = true;
             this.lvSinhVien.GridLines = true;
@@ -133,10 +139,11 @@ namespace OnTap_QLSV
             this.lvSinhVien.Location = new System.Drawing.Point(4, 67);
             this.lvSinhVien.Margin = new System.Windows.Forms.Padding(2);
             this.lvSinhVien.Name = "lvSinhVien";
-            this.lvSinhVien.Size = new System.Drawing.Size(712, 285);
+            this.lvSinhVien.Size = new System.Drawing.Size(941, 324);
             this.lvSinhVien.TabIndex = 2;
             this.lvSinhVien.UseCompatibleStateImageBehavior = false;
             this.lvSinhVien.View = System.Windows.Forms.View.Details;
+            this.lvSinhVien.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lvSinhVien_MouseDoubleClick);
             // 
             // columnHeader1
             // 
@@ -165,12 +172,43 @@ namespace OnTap_QLSV
             // columnHeader6
             // 
             this.columnHeader6.Text = "Số điện thoại";
-            this.columnHeader6.Width = 116;
+            this.columnHeader6.Width = 87;
             // 
             // columnHeader7
             // 
             this.columnHeader7.Text = "Lớp";
-            this.columnHeader7.Width = 108;
+            this.columnHeader7.Width = 47;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Khoa";
+            this.columnHeader8.Width = 140;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Địa chỉ";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmThem,
+            this.tsmXoa});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(105, 48);
+            // 
+            // tsmThem
+            // 
+            this.tsmThem.Name = "tsmThem";
+            this.tsmThem.Size = new System.Drawing.Size(104, 22);
+            this.tsmThem.Text = "Thêm";
+            this.tsmThem.Click += new System.EventHandler(this.tsmThem_Click_1);
+            // 
+            // tsmXoa
+            // 
+            this.tsmXoa.Name = "tsmXoa";
+            this.tsmXoa.Size = new System.Drawing.Size(104, 22);
+            this.tsmXoa.Text = "Xóa";
+            this.tsmXoa.Click += new System.EventHandler(this.tsmXoa_Click);
             // 
             // rdSDT
             // 
@@ -223,14 +261,6 @@ namespace OnTap_QLSV
             this.label1.TabIndex = 0;
             this.label1.Text = "Tìm theo:";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.toolStripMenuItem2});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 70);
-            // 
             // nhậpToolStripMenuItem
             // 
             this.nhậpToolStripMenuItem.Name = "nhậpToolStripMenuItem";
@@ -239,6 +269,9 @@ namespace OnTap_QLSV
             // 
             // lưuToolStripMenuItem
             // 
+            this.lưuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.jSONToolStripMenuItem,
+            this.eXCELToolStripMenuItem});
             this.lưuToolStripMenuItem.Name = "lưuToolStripMenuItem";
             this.lưuToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.lưuToolStripMenuItem.Text = "Lưu";
@@ -259,29 +292,28 @@ namespace OnTap_QLSV
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(970, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1199, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // toolStripMenuItem1
+            // jSONToolStripMenuItem
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem1.Text = "Thêm";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            this.jSONToolStripMenuItem.Name = "jSONToolStripMenuItem";
+            this.jSONToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.jSONToolStripMenuItem.Text = "JSON";
+            this.jSONToolStripMenuItem.Click += new System.EventHandler(this.jSONToolStripMenuItem_Click);
             // 
-            // toolStripMenuItem2
+            // eXCELToolStripMenuItem
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "Xóa";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            this.eXCELToolStripMenuItem.Name = "eXCELToolStripMenuItem";
+            this.eXCELToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eXCELToolStripMenuItem.Text = "EXCEL";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(970, 366);
+            this.ClientSize = new System.Drawing.Size(1199, 405);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
@@ -320,12 +352,16 @@ namespace OnTap_QLSV
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem tsmThem;
+        private System.Windows.Forms.ToolStripMenuItem tsmXoa;
         private System.Windows.Forms.ToolStripMenuItem nhậpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lưuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.ToolStripMenuItem jSONToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eXCELToolStripMenuItem;
     }
 }
 

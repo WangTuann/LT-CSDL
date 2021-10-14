@@ -34,10 +34,6 @@ namespace OnTap_QLSV.Data
             return listSV;
         }
 
-        //public List<SinhVien> GETSV()
-        //{
-        //    throw new NotImplementedException();
-        //}
 
         public void Save(List<SinhVien> sv)
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -77,6 +78,11 @@ namespace OnTap_QLSV
                 }
             }
             return kq;
+        }
+        public void JsonFile(List<SinhVien> sv, string _filePath)
+        {
+            var svdata = JsonConvert.SerializeObject(sv);
+            File.WriteAllText(_filePath, svdata);
         }
     }
 }
