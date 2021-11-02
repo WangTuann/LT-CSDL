@@ -29,6 +29,7 @@ namespace Lab6_Basic_Command
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnLoad = new System.Windows.Forms.Button();
             this.lvCategory = new System.Windows.Forms.ListView();
             this.clID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -43,6 +44,10 @@ namespace Lab6_Basic_Command
             this.txtID = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtType = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tsmDelete = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmViewFood = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnLoad
@@ -61,6 +66,7 @@ namespace Lab6_Basic_Command
             this.clID,
             this.clName,
             this.clType});
+            this.lvCategory.ContextMenuStrip = this.contextMenuStrip1;
             this.lvCategory.FullRowSelect = true;
             this.lvCategory.HideSelection = false;
             this.lvCategory.Location = new System.Drawing.Point(4, 184);
@@ -70,6 +76,7 @@ namespace Lab6_Basic_Command
             this.lvCategory.TabIndex = 1;
             this.lvCategory.UseCompatibleStateImageBehavior = false;
             this.lvCategory.View = System.Windows.Forms.View.Details;
+            this.lvCategory.Click += new System.EventHandler(this.lvCategory_Click);
             // 
             // clID
             // 
@@ -104,6 +111,7 @@ namespace Lab6_Basic_Command
             this.btnDelete.TabStop = false;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -114,7 +122,7 @@ namespace Lab6_Basic_Command
             this.btnUpdate.TabIndex = 4;
             this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.button2_Click);
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // label1
             // 
@@ -157,7 +165,6 @@ namespace Lab6_Basic_Command
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(177, 20);
             this.txtName.TabIndex = 9;
-            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // txtType
             // 
@@ -165,6 +172,28 @@ namespace Lab6_Basic_Command
             this.txtType.Name = "txtType";
             this.txtType.Size = new System.Drawing.Size(177, 20);
             this.txtType.TabIndex = 10;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmDelete,
+            this.tsmViewFood});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(200, 70);
+            // 
+            // tsmDelete
+            // 
+            this.tsmDelete.Name = "tsmDelete";
+            this.tsmDelete.Size = new System.Drawing.Size(199, 22);
+            this.tsmDelete.Text = "Xóa";
+            this.tsmDelete.Click += new System.EventHandler(this.tsmDelete_Click);
+            // 
+            // tsmViewFood
+            // 
+            this.tsmViewFood.Name = "tsmViewFood";
+            this.tsmViewFood.Size = new System.Drawing.Size(199, 22);
+            this.tsmViewFood.Text = "Xem danh sách món ăn";
+            this.tsmViewFood.Click += new System.EventHandler(this.tsmViewFood_Click);
             // 
             // Form1
             // 
@@ -184,6 +213,7 @@ namespace Lab6_Basic_Command
             this.Controls.Add(this.btnLoad);
             this.Name = "Form1";
             this.Text = "S";
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -205,6 +235,9 @@ namespace Lab6_Basic_Command
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtType;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem tsmDelete;
+        private System.Windows.Forms.ToolStripMenuItem tsmViewFood;
     }
 }
 

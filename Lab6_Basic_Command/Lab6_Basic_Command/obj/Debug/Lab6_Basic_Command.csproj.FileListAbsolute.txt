@@ -8,3 +8,14 @@ D:\IT-STUDY\LT-CSDL\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_C
 D:\IT-STUDY\LT-CSDL\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.CoreCompileInputs.cache
 D:\IT-STUDY\LT-CSDL\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.exe
 D:\IT-STUDY\LT-CSDL\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.exe.config
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.exe
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.AssemblyReference.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.Form1.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.Properties.Resources.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.GenerateResource.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.CoreCompileInputs.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.exe
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.frmFood.resources
