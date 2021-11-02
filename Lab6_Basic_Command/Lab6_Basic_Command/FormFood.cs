@@ -45,5 +45,18 @@ namespace Lab6_Basic_Command
             da.Dispose();
         }
 
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            string connnectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
+            SqlConnection sqlConn = new SqlConnection(connnectionString);
+            SqlCommand sqlCommand = sqlConn.CreateCommand();
+
+            sqlCommand.CommandText = "SELECT Name FROM Category WHERE ID = " + categoryID;
+        }
     }
 }
