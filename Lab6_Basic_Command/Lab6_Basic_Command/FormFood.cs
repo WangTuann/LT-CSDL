@@ -52,11 +52,31 @@ namespace Lab6_Basic_Command
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            if (dgvFood.SelectedRows.Count==0)return;
+            var rowSelect = dgvFood.SelectedRows[0];
+            string foodID = rowSelect.Cells[0].Value.ToString();
+
             string connnectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
             SqlConnection sqlConn = new SqlConnection(connnectionString);
             SqlCommand sqlCommand = sqlConn.CreateCommand();
 
-            sqlCommand.CommandText = "SELECT Name FROM Category WHERE ID = " + categoryID;
+            sqlCommand.CommandText = "DELETE FROM Food WHERE FoodID=" + foodID;
+            sqlConn.Open();
+            int numOfRowsEffected = sqlCommand.ExecuteNonQuery();
+            sqlCommand.ExecuteNonQuery();
+            
+            if (numOfRowsEffected == 1)
+            {
+                dgvFood.Rows.Remove(rowSelect);
+                MessageBox.Show("Da xoa thanh cong");
+            }
+            else
+            {
+                MessageBox.Show("Da xay ra loi");
+                return;
+            }
+
+            sqlConn.Close();
         }
     }
 }

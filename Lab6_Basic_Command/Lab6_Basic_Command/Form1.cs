@@ -115,12 +115,12 @@ namespace Lab6_Basic_Command
         {
             string connectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
             SqlConnection sqlConn = new SqlConnection(connectionString);
-            SqlCommand sqlComd = sqlConn.CreateCommand();
+            SqlCommand sqlCommand=sqlConn.CreateCommand();
 
-            sqlComd.CommandText = "DELETE FROM Category " + "WHERE ID = " + txtID.Text;
+            sqlCommand.CommandText = "DELETE FROM Category " + "WHERE ID = " + txtID.Text;
 
             sqlConn.Open();
-            int numOfRowsEffected = sqlComd.ExecuteNonQuery();
+            int numOfRowsEffected = sqlCommand.ExecuteNonQuery();
             sqlConn.Close();
 
             if (numOfRowsEffected == 1)
