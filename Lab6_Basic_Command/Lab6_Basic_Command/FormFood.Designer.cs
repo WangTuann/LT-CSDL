@@ -43,7 +43,7 @@ namespace Lab6_Basic_Command
             this.dgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvFood.Location = new System.Drawing.Point(12, 122);
             this.dgvFood.Name = "dgvFood";
-            this.dgvFood.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvFood.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvFood.Size = new System.Drawing.Size(440, 319);
             this.dgvFood.TabIndex = 0;
             // 

@@ -38,11 +38,24 @@ namespace Lab6_Basic_Command
             DataTable dt = new DataTable("Food");
             da.Fill(dt);
 
-            dgvFood.DataSource = dt;
+            setFoodToG(dt);
 
             sqlConn.Close();
             sqlConn.Dispose();
             da.Dispose();
+        }
+
+        void setFoodToG(DataTable table)
+        {
+            dgvFood.DataSource = table;
+            dgvFood.Columns[0].ReadOnly = true;
+            dgvFood.Columns[0].HeaderCell.Value = "Mã món";
+            dgvFood.Columns[1].HeaderCell.Value = "Tên món";
+            dgvFood.Columns[2].HeaderCell.Value = "Đơn vị";
+            dgvFood.Columns[3].Visible = false;
+            dgvFood.Columns[4].HeaderCell.Value = "Giá";
+            dgvFood.Columns[5].HeaderCell.Value = "Ghi chú";
+            dgvFood.Columns[5].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -52,31 +65,37 @@ namespace Lab6_Basic_Command
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (dgvFood.SelectedRows.Count==0)return;
-            var rowSelect = dgvFood.SelectedRows[0];
-            string foodID = rowSelect.Cells[0].Value.ToString();
+            if (dgvFood.SelectedRows.Count == 0) return;
 
-            string connnectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
-            SqlConnection sqlConn = new SqlConnection(connnectionString);
-            SqlCommand sqlCommand = sqlConn.CreateCommand();
+            var selectedRow = dgvFood.SelectedRows[0];
+            string foodID = selectedRow.Cells[0].Value.ToString();
 
-            sqlCommand.CommandText = "DELETE FROM Food WHERE FoodID=" + foodID;
-            sqlConn.Open();
-            int numOfRowsEffected = sqlCommand.ExecuteNonQuery();
-            sqlCommand.ExecuteNonQuery();
-            
-            if (numOfRowsEffected == 1)
+            // tạo đối tượng kết nối
+            string connectionString = @"Data Source=DESKTOP-O55J47Q;Initial Catalog=RestaurantManagement;Integrated Security=True";
+            SqlConnection sqlConnection = new SqlConnection(connectionString);
+
+            //tạo đối tượng thực thi lệnh
+            SqlCommand command;
+            command = sqlConnection.CreateCommand();
+
+            // tạo truy vấn
+            string query = "DELETE FROM Food WHERE ID =" + foodID;
+            command.CommandText = query;
+
+            sqlConnection.Open();
+
+            int numOfRowsEffected = command.ExecuteNonQuery();
+            if (numOfRowsEffected != 1)
             {
-                dgvFood.Rows.Remove(rowSelect);
-                MessageBox.Show("Da xoa thanh cong");
+                MessageBox.Show("Không thực hiện được", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
             else
             {
-                MessageBox.Show("Da xay ra loi");
-                return;
+                MessageBox.Show("Đã xoá đối tượng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-
-            sqlConn.Close();
+            dgvFood.Rows.Remove(selectedRow);
+            sqlConnection.Close();
         }
     }
 }

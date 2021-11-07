@@ -159,5 +159,11 @@ namespace Lab6_Basic_Command
                 frm.LoadFood(Convert.ToInt32(txtID.Text));
             }
         }
+
+        private void btnBill_Click(object sender, EventArgs e)
+        {
+            BillsForm billsForm = new BillsForm();
+            billsForm.ShowDialog();
+        }
     }
 }
