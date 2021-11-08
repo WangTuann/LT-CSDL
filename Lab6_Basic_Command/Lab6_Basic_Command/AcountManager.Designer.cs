@@ -29,6 +29,7 @@ namespace Lab6_Basic_Command
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dgvAccount = new System.Windows.Forms.DataGridView();
             this.cbbSort = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,16 +45,23 @@ namespace Lab6_Basic_Command
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.xoaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvAccount
             // 
             this.dgvAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAccount.ContextMenuStrip = this.contextMenuStrip1;
             this.dgvAccount.Location = new System.Drawing.Point(12, 189);
             this.dgvAccount.Name = "dgvAccount";
+            this.dgvAccount.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvAccount.Size = new System.Drawing.Size(740, 249);
             this.dgvAccount.TabIndex = 0;
+            this.dgvAccount.Click += new System.EventHandler(this.dgvAccount_Click);
             // 
             // cbbSort
             // 
@@ -78,7 +86,7 @@ namespace Lab6_Basic_Command
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(550, 28);
+            this.btnAdd.Location = new System.Drawing.Point(550, 62);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 3;
@@ -160,15 +168,15 @@ namespace Lab6_Basic_Command
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(258, 94);
+            this.label6.Location = new System.Drawing.Point(258, 98);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 13);
+            this.label6.Size = new System.Drawing.Size(22, 13);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Account";
+            this.label6.Text = "Tel";
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(550, 67);
+            this.btnReset.Location = new System.Drawing.Point(550, 103);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 23);
             this.btnReset.TabIndex = 14;
@@ -176,11 +184,36 @@ namespace Lab6_Basic_Command
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(550, 148);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 15;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.xoaToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(95, 26);
+            // 
+            // xoaToolStripMenuItem
+            // 
+            this.xoaToolStripMenuItem.Name = "xoaToolStripMenuItem";
+            this.xoaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.xoaToolStripMenuItem.Text = "Xoa";
+            this.xoaToolStripMenuItem.Click += new System.EventHandler(this.xoaToolStripMenuItem_Click);
+            // 
             // AccountManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(765, 450);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -199,6 +232,7 @@ namespace Lab6_Basic_Command
             this.Name = "AccountManager";
             this.Text = "Account";
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,5 +255,8 @@ namespace Lab6_Basic_Command
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem xoaToolStripMenuItem;
     }
 }

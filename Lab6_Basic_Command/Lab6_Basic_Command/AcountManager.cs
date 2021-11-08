@@ -49,7 +49,7 @@ namespace Lab6_Basic_Command
             string connectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = connection.CreateCommand();
-            if (cbbSort.SelectedItem=="Nhóm")
+            if (cbbSort.SelectedItem == "Nhóm")
             {
                 command.CommandText = "SELECT RoleID, Account.AccountName, Password, FullName, Email, Tell, DateCreated FROM Account, RoleAccount " +
                     " WHERE Account.AccountName = RoleAccount.AccountName" +
@@ -87,10 +87,13 @@ namespace Lab6_Basic_Command
             SqlConnection sqlConnection = new SqlConnection(connectionString);
             SqlCommand sqlCommand = sqlConnection.CreateCommand();
 
-            
-            sqlCommand.CommandText= string.Format("insert into Account(AccountName,Password, FullName, Email, Tell, DateCreated) values ('{0}', '{1}', N'{2}', '{3}', '{4}', '{5}')",txtAccount.Text, txtPass.Text, txtName.Text, txtEmail.Text, txtTell.Text, DateTime.Now);
+            sqlConnection.Open();
+
+            sqlCommand.CommandText = "SELECT * From Account where Account.AccountName='" + txtAccount.Text + "'";
+
+            sqlCommand.CommandText = string.Format("insert into Account(AccountName,Password, FullName, Email, Tell, DateCreated) values ('{0}', '{1}', N'{2}', '{3}', '{4}', '{5}')", txtAccount.Text, txtPass.Text, txtName.Text, txtEmail.Text, txtTell.Text, DateTime.Now);
             int numofRowEffect = sqlCommand.ExecuteNonQuery();
-            if (numofRowEffect==1)
+            if (numofRowEffect == 1)
             {
                 LoadAccount();
                 MessageBox.Show("Them account thanh cong");
@@ -99,8 +102,9 @@ namespace Lab6_Basic_Command
             else
             {
                 MessageBox.Show("loi");
-
             }
+
+            sqlConnection.Close();
         }
 
         private void btnReset_Click(object sender, EventArgs e)
@@ -108,9 +112,86 @@ namespace Lab6_Basic_Command
             string connectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
             SqlConnection sqlConnection = new SqlConnection(connectionString);
             SqlCommand sqlCommand = sqlConnection.CreateCommand();
+            string defaultPass = "111111";
+            sqlConnection.Open();
+            sqlCommand.CommandText = "UPDATE Account SET Password=N'" + defaultPass + "'where [AccountName]=N'" + txtAccount.Text + "'";
+            int numofRowEffect = sqlCommand.ExecuteNonQuery();
+            if (numofRowEffect >= 1)
+            {
+                MessageBox.Show("Đã đặt lại thành công:");
+                LoadAccount();
+
+            }
+            sqlConnection.Close();
+        }
+
+        private void dgvAccount_Click(object sender, EventArgs e)
+        {
+            int index = dgvAccount.CurrentRow.Index;
+
+            txtAccount.Text = dgvAccount.Rows[index].Cells["AccountName"].Value.ToString();
+            txtPass.Text = dgvAccount.Rows[index].Cells["Password"].Value.ToString();
+            txtName.Text = dgvAccount.Rows[index].Cells["FullName"].Value.ToString();
+            txtEmail.Text = dgvAccount.Rows[index].Cells["Email"].Value.ToString();
+            txtTell.Text = dgvAccount.Rows[index].Cells["Tell"].Value.ToString();
+
+            btnAdd.Enabled = true;
+            btnReset.Enabled = true;
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            string connectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
+            SqlConnection sqlConn = new SqlConnection(connectionString);
+            SqlCommand sqlComd = sqlConn.CreateCommand();
+
+            sqlComd.CommandText = string.Format("UPDATE Account SET AccountName = '{0}', Password = '{1}', FullName = N'{2}', Email = '{3}', Tell = '{4}', DateCreated = '{5}' WHERE AccountName = '{0}' ",
+                txtAccount.Text, txtPass.Text, txtName.Text, txtEmail.Text, txtTell.Text, DateTime.Now);
+
+            sqlConn.Open();
+
+            int numOfRows = sqlComd.ExecuteNonQuery();
+
+            if (numOfRows == 1)
+            {
+                LoadAccount();  
+                MessageBox.Show("Cap nhat tai khoan thanh cong");
+            }
+            else
+            {
+                MessageBox.Show("Loi", "Error", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+            }
+            sqlConn.Close();
+        }
+
+        private void xoaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dgvAccount.SelectedRows.Count == 0) return;
+
+            var selectedRow = dgvAccount.SelectedRows[0];
+            string account = selectedRow.Cells[0].Value.ToString();
+
+            // tạo đối tượng kết nối
+            string connectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
+            SqlConnection sqlConnection = new SqlConnection(connectionString);
+
+            //tạo đối tượng thực thi lệnh
+            SqlCommand command;
+            command = sqlConnection.CreateCommand();
+
+            // tạo truy vấn
+            string query = string.Format("UPDATE RoleAccount SET Actived = '0' WHERE AccountName = '{0}'", account);
+            command.CommandText = query;
 
             sqlConnection.Open();
-            sqlCommand.CommandText="UPDATE Account SET Password=N'"+
+
+            int numOfRowsEffected = command.ExecuteNonQuery();
+            if (numOfRowsEffected == 1)
+            {
+                dgvAccount.Rows.Remove(selectedRow);
+                MessageBox.Show("Da xoa thanh cong");
+            }
+            sqlConnection.Close();
         }
     }
 }

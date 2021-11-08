@@ -16,6 +16,7 @@ namespace Lab6_Basic_Command
         public frmFood()
         {
             InitializeComponent();
+
         }
 
         public void LoadFood(int categoryID)
@@ -60,7 +61,40 @@ namespace Lab6_Basic_Command
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            string connectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
+            SqlConnection sqlConn = new SqlConnection(connectionString);
+            SqlCommand sqlComd = sqlConn.CreateCommand();
 
+            sqlComd.CommandText = "UPDATE Food SET Name = N'" + txtFoodName.Text + "', Unit = '" + txtDonViTinh.Text + "', FoodCategoryID = " + txtNhom.Text + ", Price = " + txtGia.Text + ", Notes = '" + lb.Text + "'" +
+                                                       " WHERE ID = " + txtFoodID.Text;
+            // mở kết nối tới csdl
+            sqlConn.Open();
+
+            // thực thi lệnh bằng phương thức ExcuteReader
+            int numOfRowsEffected = sqlComd.ExecuteNonQuery();
+
+            // đóng kết nối
+            sqlConn.Close();
+
+            if (numOfRowsEffected == 1)
+            {
+                MessageBox.Show("Cập nhật món ăn thành công");
+
+                //Tải lại dữ liệu
+                LoadFood(Convert.ToInt32(txtNhom.Text));
+
+                // xoá các ô đã nhập
+                //txtName.Text = "";
+                //txtUnit.Text = "";
+                //txtFoodCategoryID.Text = "";
+                //txtPrice.Text = "";
+                //txtNote.Text = "";
+            }
+            else
+            {
+                MessageBox.Show("Đã có lỗi xảy ra, vui lòng thử lại");
+            }
+            sqlConn.Close();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -71,7 +105,7 @@ namespace Lab6_Basic_Command
             string foodID = selectedRow.Cells[0].Value.ToString();
 
             // tạo đối tượng kết nối
-            string connectionString = @"Data Source=DESKTOP-O55J47Q;Initial Catalog=RestaurantManagement;Integrated Security=True";
+            string connectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
             SqlConnection sqlConnection = new SqlConnection(connectionString);
 
             //tạo đối tượng thực thi lệnh
@@ -85,17 +119,28 @@ namespace Lab6_Basic_Command
             sqlConnection.Open();
 
             int numOfRowsEffected = command.ExecuteNonQuery();
-            if (numOfRowsEffected != 1)
+            if (numOfRowsEffected == 1)
             {
-                MessageBox.Show("Không thực hiện được", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                dgvFood.Rows.Remove(selectedRow);
+                MessageBox.Show("Da xoa thanh cong");
             }
             else
             {
-                MessageBox.Show("Đã xoá đối tượng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Da xay ra loi");
+                return;
             }
-            dgvFood.Rows.Remove(selectedRow);
             sqlConnection.Close();
+        }
+
+        private void dgvFood_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int i;
+            i = dgvFood.CurrentRow.Index;
+            txtFoodID.Text = dgvFood.Rows[i].Cells[0].Value.ToString();
+            txtFoodName.Text = dgvFood.Rows[i].Cells[1].Value.ToString();
+            txtDonViTinh.Text = dgvFood.Rows[i].Cells[2].Value.ToString();
+            txtGia.Text = dgvFood.Rows[i].Cells[4].Value.ToString();
+            lb.Text = dgvFood.Rows[i].Cells[5].Value.ToString();
         }
     }
 }
