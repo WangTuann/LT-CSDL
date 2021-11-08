@@ -165,5 +165,11 @@ namespace Lab6_Basic_Command
             BillsForm billsForm = new BillsForm();
             billsForm.ShowDialog();
         }
+
+        private void btnAcc_Click(object sender, EventArgs e)
+        {
+            AccountManager accForm = new AccountManager();
+            accForm.ShowDialog();
+        }
     }
 }

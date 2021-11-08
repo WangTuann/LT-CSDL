@@ -20,3 +20,4 @@ D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\
 D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.pdb
 D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.frmFood.resources
 D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.BillsForm.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.AccountManager.resources

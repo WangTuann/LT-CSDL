@@ -48,6 +48,7 @@ namespace Lab6_Basic_Command
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtType = new System.Windows.Forms.TextBox();
             this.btnBill = new System.Windows.Forms.Button();
+            this.btnAcc = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -207,11 +208,23 @@ namespace Lab6_Basic_Command
             this.btnBill.UseVisualStyleBackColor = true;
             this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
             // 
+            // btnAcc
+            // 
+            this.btnAcc.Location = new System.Drawing.Point(303, 487);
+            this.btnAcc.Name = "btnAcc";
+            this.btnAcc.Size = new System.Drawing.Size(75, 23);
+            this.btnAcc.TabIndex = 12;
+            this.btnAcc.TabStop = false;
+            this.btnAcc.Text = "Tài khoản";
+            this.btnAcc.UseVisualStyleBackColor = true;
+            this.btnAcc.Click += new System.EventHandler(this.btnAcc_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(496, 522);
+            this.Controls.Add(this.btnAcc);
             this.Controls.Add(this.btnBill);
             this.Controls.Add(this.txtType);
             this.Controls.Add(this.txtName);
@@ -252,6 +265,7 @@ namespace Lab6_Basic_Command
         private System.Windows.Forms.ToolStripMenuItem tsmDelete;
         private System.Windows.Forms.ToolStripMenuItem tsmViewFood;
         private System.Windows.Forms.Button btnBill;
+        private System.Windows.Forms.Button btnAcc;
     }
 }
 
