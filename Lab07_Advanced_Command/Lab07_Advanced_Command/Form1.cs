@@ -21,7 +21,7 @@ namespace Lab07_Advanced_Command
         private void LoadCategory()
         {
             string connectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
-            
+
             SqlConnection conn = new SqlConnection(connectionString);
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandText = "SELECT ID, Name FROM Category";
@@ -91,7 +91,7 @@ namespace Lab07_Advanced_Command
             cmd.CommandText = "SELECT @numSaleFood=sum(Quantity)FROM BillDetails WHERE FoodID=@foodID";
             //lay thong tin item
 
-            if (dgvFoodList.SelectedRows.Count>0)
+            if (dgvFoodList.SelectedRows.Count > 0)
             {
                 DataGridViewRow selectedRow = dgvFoodList.SelectedRows[0];
                 DataRowView rowView = selectedRow.DataBoundItem as DataRowView;
@@ -112,6 +112,39 @@ namespace Lab07_Advanced_Command
             cmd.Dispose();
             conn.Dispose();
         }
+
+        private void tsmAddFood_Click(object sender, EventArgs e)
+        {
+            FoodInfoForm frm = new FoodInfoForm();
+            frm.FormClosed += new FormClosedEventHandler(foodForm_FormClosed);
+            frm.Show(this);
+        }
+        void foodForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            int index = cbbCategory.SelectedIndex;
+            cbbCategory.SelectedIndex = -1;
+            cbbCategory.SelectedIndex = index;
+        }
+
+        private void tsmUpdateFood_Click(object sender, EventArgs e)
+        {
+            if (dgvFoodList.SelectedRows.Count > 0)
+            {
+                // lấy thông tin sản phẩn được chọn
+                if (dgvFoodList.SelectedRows.Count > 0)
+                {
+                    DataGridViewRow selectedRow = dgvFoodList.SelectedRows[0];
+                    DataRowView rowView = selectedRow.DataBoundItem as DataRowView;
+
+                    FoodInfoForm foodForm = new FoodInfoForm();
+                    foodForm.FormClosed += new FormClosedEventHandler(foodForm_FormClosed);
+
+                    foodForm.Show(this);
+                    foodForm.DisplayFoodInfo(rowView);
+
+                }
+            }
+        }
     }
-    
+
 }

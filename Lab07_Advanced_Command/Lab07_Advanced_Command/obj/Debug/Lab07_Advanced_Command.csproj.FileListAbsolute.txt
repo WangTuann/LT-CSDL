@@ -8,3 +8,14 @@ D:\IT-STUDY\LT-CSDL\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab0
 D:\IT-STUDY\LT-CSDL\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.exe
 D:\IT-STUDY\LT-CSDL\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.pdb
 D:\IT-STUDY\LT-CSDL\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.csproj.AssemblyReference.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\bin\Debug\Lab07_Advanced_Command.exe.config
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\bin\Debug\Lab07_Advanced_Command.exe
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\bin\Debug\Lab07_Advanced_Command.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.csproj.AssemblyReference.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.FoodInfoForm.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.Form1.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.Properties.Resources.resources
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.csproj.GenerateResource.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.csproj.CoreCompileInputs.cache
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.exe
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.pdb

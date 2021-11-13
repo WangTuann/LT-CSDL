@@ -38,14 +38,14 @@ namespace Lab07_Advanced_Command
             this.txtUnit = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtNote = new System.Windows.Forms.TextBox();
-            this.ccbCatName = new System.Windows.Forms.ComboBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.cbbCatName = new System.Windows.Forms.ComboBox();
+            this.nudPrice = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
             this.btnAddFood = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnUpdateFood = new System.Windows.Forms.Button();
             this.btnAddNew = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPrice)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -122,20 +122,20 @@ namespace Lab07_Advanced_Command
             this.txtNote.Size = new System.Drawing.Size(311, 20);
             this.txtNote.TabIndex = 10;
             // 
-            // ccbCatName
+            // cbbCatName
             // 
-            this.ccbCatName.FormattingEnabled = true;
-            this.ccbCatName.Location = new System.Drawing.Point(115, 107);
-            this.ccbCatName.Name = "ccbCatName";
-            this.ccbCatName.Size = new System.Drawing.Size(214, 21);
-            this.ccbCatName.TabIndex = 11;
+            this.cbbCatName.FormattingEnabled = true;
+            this.cbbCatName.Location = new System.Drawing.Point(115, 107);
+            this.cbbCatName.Name = "cbbCatName";
+            this.cbbCatName.Size = new System.Drawing.Size(214, 21);
+            this.cbbCatName.TabIndex = 11;
             // 
-            // numericUpDown1
+            // nudPrice
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(115, 134);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(311, 20);
-            this.numericUpDown1.TabIndex = 12;
+            this.nudPrice.Location = new System.Drawing.Point(115, 134);
+            this.nudPrice.Name = "nudPrice";
+            this.nudPrice.Size = new System.Drawing.Size(311, 20);
+            this.nudPrice.TabIndex = 12;
             // 
             // label7
             // 
@@ -154,6 +154,7 @@ namespace Lab07_Advanced_Command
             this.btnAddFood.TabIndex = 14;
             this.btnAddFood.Text = "ADD";
             this.btnAddFood.UseVisualStyleBackColor = true;
+            this.btnAddFood.Click += new System.EventHandler(this.btnAddFood_Click);
             // 
             // btnCancel
             // 
@@ -163,6 +164,7 @@ namespace Lab07_Advanced_Command
             this.btnCancel.TabIndex = 15;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnUpdateFood
             // 
@@ -172,6 +174,7 @@ namespace Lab07_Advanced_Command
             this.btnUpdateFood.TabIndex = 16;
             this.btnUpdateFood.Text = "UPDATE";
             this.btnUpdateFood.UseVisualStyleBackColor = true;
+            this.btnUpdateFood.Click += new System.EventHandler(this.btnUpdateFood_Click);
             // 
             // btnAddNew
             // 
@@ -192,8 +195,8 @@ namespace Lab07_Advanced_Command
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAddFood);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.ccbCatName);
+            this.Controls.Add(this.nudPrice);
+            this.Controls.Add(this.cbbCatName);
             this.Controls.Add(this.txtNote);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtUnit);
@@ -206,7 +209,7 @@ namespace Lab07_Advanced_Command
             this.Name = "FoodInfoForm";
             this.Text = "FoodInfoForm";
             this.Load += new System.EventHandler(this.FoodInfoForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPrice)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -223,8 +226,8 @@ namespace Lab07_Advanced_Command
         private System.Windows.Forms.TextBox txtUnit;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtNote;
-        private System.Windows.Forms.ComboBox ccbCatName;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.ComboBox cbbCatName;
+        private System.Windows.Forms.NumericUpDown nudPrice;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnAddFood;
         private System.Windows.Forms.Button btnCancel;

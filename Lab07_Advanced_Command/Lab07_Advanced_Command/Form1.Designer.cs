@@ -39,6 +39,8 @@ namespace Lab07_Advanced_Command
             this.lblCatName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.tsmAddFood = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmUpdateFood = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -75,9 +77,11 @@ namespace Lab07_Advanced_Command
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmCalculateQuantity});
+            this.tsmCalculateQuantity,
+            this.tsmAddFood,
+            this.tsmUpdateFood});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(186, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(186, 92);
             // 
             // tsmCalculateQuantity
             // 
@@ -122,6 +126,20 @@ namespace Lab07_Advanced_Command
             this.label3.TabIndex = 6;
             this.label3.Text = "món ăn thuộc nhóm";
             // 
+            // tsmAddFood
+            // 
+            this.tsmAddFood.Name = "tsmAddFood";
+            this.tsmAddFood.Size = new System.Drawing.Size(185, 22);
+            this.tsmAddFood.Text = "Thêm món ăn";
+            this.tsmAddFood.Click += new System.EventHandler(this.tsmAddFood_Click);
+            // 
+            // tsmUpdateFood
+            // 
+            this.tsmUpdateFood.Name = "tsmUpdateFood";
+            this.tsmUpdateFood.Size = new System.Drawing.Size(185, 22);
+            this.tsmUpdateFood.Text = "Cập nhật món ăn";
+            this.tsmUpdateFood.Click += new System.EventHandler(this.tsmUpdateFood_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,6 +173,8 @@ namespace Lab07_Advanced_Command
         private System.Windows.Forms.ToolStripMenuItem tsmCalculateQuantity;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem tsmAddFood;
+        private System.Windows.Forms.ToolStripMenuItem tsmUpdateFood;
     }
 }
 
