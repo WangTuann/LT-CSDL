@@ -30,7 +30,7 @@ namespace Lab07_Advanced_Command
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandText = "SELECT ID,Name FROM Category";
 
-            SqlDataAdapter adapter = new SqlDataAdapter();
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             DataSet ds = new DataSet();
 
             conn.Open();
@@ -58,57 +58,59 @@ namespace Lab07_Advanced_Command
 
         private void btnAddFood_Click(object sender, EventArgs e)
         {
+
             try
             {
                 string connectionString = @"Data Source=DESKTOP-3TTGTB4\SQLEXPRESS;Initial Catalog=RestaurantManagement;Integrated Security=True";
                 SqlConnection conn = new SqlConnection(connectionString);
 
                 SqlCommand cmd = conn.CreateCommand();
-                cmd.CommandText = "EXCUTE InsertFood @id OUTPUT,@name,@unit,@foodCategoryID,@price,@notes";
+                cmd.CommandText = "EXECUTE InsertFood @id OUTPUT, @name, @unit, @foodCategoryID, @price, @notes";
 
-
-                //them tham so vao command
+                // thêm tham số vào đối tượng command
                 cmd.Parameters.Add("@id", SqlDbType.Int);
                 cmd.Parameters.Add("@name", SqlDbType.NVarChar, 1000);
                 cmd.Parameters.Add("@unit", SqlDbType.NVarChar, 100);
-                cmd.Parameters.Add("@foodCategoryID", SqlDbType.Int);
+                cmd.Parameters.Add("@foodCategoryId", SqlDbType.Int);
                 cmd.Parameters.Add("@price", SqlDbType.Int);
                 cmd.Parameters.Add("@notes", SqlDbType.NVarChar, 3000);
 
                 cmd.Parameters["@id"].Direction = ParameterDirection.Output;
-                //truyen gia tri vao thu tuc qua tham so
+
+                //truyền giá trị vào thủ tục qua tham số
                 cmd.Parameters["@name"].Value = txtName.Text;
                 cmd.Parameters["@unit"].Value = txtUnit.Text;
-                cmd.Parameters["@foodCategory"].Value = cbbCatName.SelectedValue;
+                cmd.Parameters["@foodCategoryId"].Value = cbbCatName.SelectedValue;
                 cmd.Parameters["@price"].Value = nudPrice.Value;
                 cmd.Parameters["@notes"].Value = txtNote.Text;
 
-
+                // mở kết nối
                 conn.Open();
-                int numofRowEffect = cmd.ExecuteNonQuery();
-                if (numofRowEffect>0)
+
+                int numRowAffected = cmd.ExecuteNonQuery();
+
+                // thông báo kết quả
+                if (numRowAffected > 0)
                 {
                     string foodID = cmd.Parameters["@id"].Value.ToString();
-                    MessageBox.Show("Successfully adding new food, Food ID=" + foodID, "Message");
+
+                    MessageBox.Show("Successfully add new food, Food id = " + foodID, "Message");
                     this.ResetText();
                 }
                 else
                 {
                     MessageBox.Show("Adding food failed");
-
                 }
+
+                // đóng kết nối
                 conn.Close();
                 conn.Dispose();
             }
-            catch (SqlException exeption)
+            // bắt lỗi SQL và các lỗi khác
+            catch (Exception exception)
             {
-                MessageBox.Show(exeption.Message, "SQL Error");
+                MessageBox.Show(exception.Message, "SQL Error");
             }
-            catch (Exception exeption)
-            {
-                MessageBox.Show(exeption.Message, "Error");
-            }
-
         }
         public void DisplayFoodInfo(DataRowView rowView)
         {
@@ -147,7 +149,7 @@ namespace Lab07_Advanced_Command
                 SqlConnection conn = new SqlConnection(connectionString);
 
                 SqlCommand cmd = conn.CreateCommand();
-                cmd.CommandText = "EXCUTE UpdateFood @id ,@name,@unit,@foodCategoryID,@price,@notes";
+                cmd.CommandText = "EXECUTE UpdateFood @id ,@name,@unit,@foodCategoryID,@price,@notes";
 
 
                 //them tham so vao command
@@ -163,7 +165,7 @@ namespace Lab07_Advanced_Command
                 cmd.Parameters["@id"].Value = int.Parse(txtFoodId.Text);
                 cmd.Parameters["@name"].Value = txtName.Text;
                 cmd.Parameters["@unit"].Value = txtUnit.Text;
-                cmd.Parameters["@foodCategory"].Value = cbbCatName.SelectedValue;
+                cmd.Parameters["@foodCategoryID"].Value = cbbCatName.SelectedValue;
                 cmd.Parameters["@price"].Value = nudPrice.Value;
                 cmd.Parameters["@notes"].Value = txtNote.Text;
 

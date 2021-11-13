@@ -35,12 +35,14 @@ namespace Lab07_Advanced_Command
             this.dgvFoodList = new System.Windows.Forms.DataGridView();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmCalculateQuantity = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmAddFood = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmUpdateFood = new System.Windows.Forms.ToolStripMenuItem();
             this.lblQuantity = new System.Windows.Forms.Label();
             this.lblCatName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.tsmAddFood = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmUpdateFood = new System.Windows.Forms.ToolStripMenuItem();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtSearchByName = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +50,7 @@ namespace Lab07_Advanced_Command
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(59, 23);
+            this.label1.Location = new System.Drawing.Point(12, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 13);
             this.label1.TabIndex = 0;
@@ -57,9 +59,9 @@ namespace Lab07_Advanced_Command
             // cbbCategory
             // 
             this.cbbCategory.FormattingEnabled = true;
-            this.cbbCategory.Location = new System.Drawing.Point(168, 23);
+            this.cbbCategory.Location = new System.Drawing.Point(120, 23);
             this.cbbCategory.Name = "cbbCategory";
-            this.cbbCategory.Size = new System.Drawing.Size(209, 21);
+            this.cbbCategory.Size = new System.Drawing.Size(145, 21);
             this.cbbCategory.TabIndex = 1;
             this.cbbCategory.SelectedIndexChanged += new System.EventHandler(this.cbbCategory_SelectedIndexChanged);
             // 
@@ -67,11 +69,11 @@ namespace Lab07_Advanced_Command
             // 
             this.dgvFoodList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvFoodList.ContextMenuStrip = this.contextMenuStrip1;
-            this.dgvFoodList.Location = new System.Drawing.Point(13, 77);
+            this.dgvFoodList.Location = new System.Drawing.Point(12, 83);
             this.dgvFoodList.MultiSelect = false;
             this.dgvFoodList.Name = "dgvFoodList";
             this.dgvFoodList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFoodList.Size = new System.Drawing.Size(487, 349);
+            this.dgvFoodList.Size = new System.Drawing.Size(591, 349);
             this.dgvFoodList.TabIndex = 2;
             // 
             // contextMenuStrip1
@@ -81,7 +83,7 @@ namespace Lab07_Advanced_Command
             this.tsmAddFood,
             this.tsmUpdateFood});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(186, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(186, 70);
             // 
             // tsmCalculateQuantity
             // 
@@ -89,6 +91,20 @@ namespace Lab07_Advanced_Command
             this.tsmCalculateQuantity.Size = new System.Drawing.Size(185, 22);
             this.tsmCalculateQuantity.Text = "Tính số lượng đã bán";
             this.tsmCalculateQuantity.Click += new System.EventHandler(this.tsmCalculateQuantity_Click);
+            // 
+            // tsmAddFood
+            // 
+            this.tsmAddFood.Name = "tsmAddFood";
+            this.tsmAddFood.Size = new System.Drawing.Size(185, 22);
+            this.tsmAddFood.Text = "Thêm món ăn";
+            this.tsmAddFood.Click += new System.EventHandler(this.tsmAddFood_Click);
+            // 
+            // tsmUpdateFood
+            // 
+            this.tsmUpdateFood.Name = "tsmUpdateFood";
+            this.tsmUpdateFood.Size = new System.Drawing.Size(185, 22);
+            this.tsmUpdateFood.Text = "Cập nhật món ăn";
+            this.tsmUpdateFood.Click += new System.EventHandler(this.tsmUpdateFood_Click);
             // 
             // lblQuantity
             // 
@@ -126,25 +142,30 @@ namespace Lab07_Advanced_Command
             this.label3.TabIndex = 6;
             this.label3.Text = "món ăn thuộc nhóm";
             // 
-            // tsmAddFood
+            // label4
             // 
-            this.tsmAddFood.Name = "tsmAddFood";
-            this.tsmAddFood.Size = new System.Drawing.Size(185, 22);
-            this.tsmAddFood.Text = "Thêm món ăn";
-            this.tsmAddFood.Click += new System.EventHandler(this.tsmAddFood_Click);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(310, 23);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(88, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Tìm kiếm thức ăn";
             // 
-            // tsmUpdateFood
+            // txtSearchByName
             // 
-            this.tsmUpdateFood.Name = "tsmUpdateFood";
-            this.tsmUpdateFood.Size = new System.Drawing.Size(185, 22);
-            this.tsmUpdateFood.Text = "Cập nhật món ăn";
-            this.tsmUpdateFood.Click += new System.EventHandler(this.tsmUpdateFood_Click);
+            this.txtSearchByName.Location = new System.Drawing.Point(404, 20);
+            this.txtSearchByName.Name = "txtSearchByName";
+            this.txtSearchByName.Size = new System.Drawing.Size(199, 20);
+            this.txtSearchByName.TabIndex = 8;
+            this.txtSearchByName.TextChanged += new System.EventHandler(this.txtSearchByName_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(512, 457);
+            this.ClientSize = new System.Drawing.Size(615, 457);
+            this.Controls.Add(this.txtSearchByName);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblCatName);
@@ -175,6 +196,8 @@ namespace Lab07_Advanced_Command
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ToolStripMenuItem tsmAddFood;
         private System.Windows.Forms.ToolStripMenuItem tsmUpdateFood;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtSearchByName;
     }
 }
 

@@ -145,6 +145,19 @@ namespace Lab07_Advanced_Command
                 }
             }
         }
+
+        private void txtSearchByName_TextChanged(object sender, EventArgs e)
+        {
+            if (foodTable == null) return;
+
+            string filterExpression = "Name like '%" + txtSearchByName.Text + "%'";
+            string sortExpression = "Price DESC";
+
+            DataViewRowState rowStateFilter = DataViewRowState.OriginalRows;
+
+            DataView foodView = new DataView(foodTable, filterExpression, sortExpression, rowStateFilter);
+            dgvFoodList.DataSource = foodView;
+        }
     }
 
 }
