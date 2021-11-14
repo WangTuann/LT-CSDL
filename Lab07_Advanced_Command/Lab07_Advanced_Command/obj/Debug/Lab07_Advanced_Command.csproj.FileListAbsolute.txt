@@ -19,3 +19,4 @@ D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\ob
 D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.csproj.CoreCompileInputs.cache
 D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.exe
 D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.pdb
+D:\IT-STUDY\LT-CSDL\GIT\LAB5-10\Lab07_Advanced_Command\Lab07_Advanced_Command\obj\Debug\Lab07_Advanced_Command.AddFoodCate.resources

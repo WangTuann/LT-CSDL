@@ -200,5 +200,20 @@ namespace Lab07_Advanced_Command
         {
             this.Close();
         }
+
+        private void btnAddNew_Click(object sender, EventArgs e)
+        {
+            AddFoodCate frm = new AddFoodCate();
+            frm.FormClosed += new FormClosedEventHandler(frmClosed);
+            frm.Show(this);
+        }
+
+        private void frmClosed(object sender, FormClosedEventArgs e)
+        {
+            int index = cbbCatName.SelectedIndex;
+            cbbCatName.SelectedIndex = -1;
+            cbbCatName.SelectedIndex = index;
+            InitValues();
+        }
     }
 }
