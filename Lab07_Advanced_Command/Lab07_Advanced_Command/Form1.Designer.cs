@@ -43,6 +43,8 @@ namespace Lab07_Advanced_Command
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtSearchByName = new System.Windows.Forms.TextBox();
+            this.btnBill = new System.Windows.Forms.Button();
+            this.btnAccount = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -73,7 +75,7 @@ namespace Lab07_Advanced_Command
             this.dgvFoodList.MultiSelect = false;
             this.dgvFoodList.Name = "dgvFoodList";
             this.dgvFoodList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFoodList.Size = new System.Drawing.Size(591, 349);
+            this.dgvFoodList.Size = new System.Drawing.Size(591, 330);
             this.dgvFoodList.TabIndex = 2;
             // 
             // contextMenuStrip1
@@ -159,11 +161,33 @@ namespace Lab07_Advanced_Command
             this.txtSearchByName.TabIndex = 8;
             this.txtSearchByName.TextChanged += new System.EventHandler(this.txtSearchByName_TextChanged);
             // 
+            // btnBill
+            // 
+            this.btnBill.Location = new System.Drawing.Point(404, 425);
+            this.btnBill.Name = "btnBill";
+            this.btnBill.Size = new System.Drawing.Size(75, 23);
+            this.btnBill.TabIndex = 9;
+            this.btnBill.Text = "Hóa đơn";
+            this.btnBill.UseVisualStyleBackColor = true;
+            this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
+            // 
+            // btnAccount
+            // 
+            this.btnAccount.Location = new System.Drawing.Point(508, 425);
+            this.btnAccount.Name = "btnAccount";
+            this.btnAccount.Size = new System.Drawing.Size(75, 23);
+            this.btnAccount.TabIndex = 10;
+            this.btnAccount.Text = "Tài khoản";
+            this.btnAccount.UseVisualStyleBackColor = true;
+            this.btnAccount.Click += new System.EventHandler(this.btnAccount_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(615, 457);
+            this.Controls.Add(this.btnAccount);
+            this.Controls.Add(this.btnBill);
             this.Controls.Add(this.txtSearchByName);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -198,6 +222,8 @@ namespace Lab07_Advanced_Command
         private System.Windows.Forms.ToolStripMenuItem tsmUpdateFood;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtSearchByName;
+        private System.Windows.Forms.Button btnBill;
+        private System.Windows.Forms.Button btnAccount;
     }
 }
 

@@ -61,9 +61,9 @@ namespace Lab07_Advanced_Command
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(22, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 13);
+            this.label1.Size = new System.Drawing.Size(82, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Category Name";
+            this.label1.Text = "Danh sách món";
             // 
             // txtCate
             // 
@@ -86,9 +86,9 @@ namespace Lab07_Advanced_Command
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(22, 96);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 13);
+            this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Type";
+            this.label3.Text = "Loại";
             // 
             // cbbType
             // 
