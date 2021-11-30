@@ -1,0 +1,61 @@
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe.config
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.pdb
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.dll
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.dll
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.pdb
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.pdb
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.AssemblyReference.cache
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.Properties.Resources.resources
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.GenerateResource.cache
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CoreCompileInputs.cache
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CopyComplete
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.exe
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.pdb
+C:\Users\Kin\Desktop\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.frmForm.resources
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe.config
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.pdb
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.dll
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.dll
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.pdb
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.pdb
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.AssemblyReference.cache
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.frmForm.resources
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.Properties.Resources.resources
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.GenerateResource.cache
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CoreCompileInputs.cache
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CopyComplete
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.exe
+C:\Users\Kin\Downloads\Lab08 (2)\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.pdb
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe.config
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.pdb
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.dll
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.dll
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.pdb
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.pdb
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.AssemblyReference.cache
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.SuggestedBindingRedirects.cache
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.frmForm.resources
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.Properties.Resources.resources
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.GenerateResource.cache
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CoreCompileInputs.cache
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CopyComplete
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.exe
+D:\HK1 - III\csdl\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.pdb
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe.config
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.pdb
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.dll
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.dll
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.pdb
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.pdb
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.AssemblyReference.cache
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.frmForm.resources
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.Properties.Resources.resources
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.GenerateResource.cache
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CoreCompileInputs.cache
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.exe
+D:\IT-STUDY\LT-CSDL\Lab08\Lab08\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.pdb
