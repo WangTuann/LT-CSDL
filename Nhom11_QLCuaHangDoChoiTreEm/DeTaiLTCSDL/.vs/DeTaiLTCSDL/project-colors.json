@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "37e6de38-6dd2-4e1a-b364-fbaf6836c745": {
+      "ProjectGuid": "37e6de38-6dd2-4e1a-b364-fbaf6836c745",
+      "DisplayName": "BusinessLogic",
+      "ColorIndex": 0
+    },
+    "d5b4629b-006b-4d6d-b7bd-a1515e871b10": {
+      "ProjectGuid": "d5b4629b-006b-4d6d-b7bd-a1515e871b10",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 1
+    },
+    "91c9e55a-8721-4869-ba08-91ada867d3a6": {
+      "ProjectGuid": "91c9e55a-8721-4869-ba08-91ada867d3a6",
+      "DisplayName": "DeTaiLTCSDL",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

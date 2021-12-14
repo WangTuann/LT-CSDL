@@ -1,0 +1,24 @@
+D:\Study\DeTaiLTCSDL\DataAccess\bin\Debug\DataAccess.dll
+D:\Study\DeTaiLTCSDL\DataAccess\bin\Debug\DataAccess.pdb
+D:\Study\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\Study\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\Study\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.dll
+D:\Study\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DataAccess\obj\Debug\DataAccess.pdb
