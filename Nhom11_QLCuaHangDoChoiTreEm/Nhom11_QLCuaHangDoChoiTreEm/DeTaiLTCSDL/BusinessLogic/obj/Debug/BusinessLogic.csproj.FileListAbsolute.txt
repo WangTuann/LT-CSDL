@@ -1,0 +1,36 @@
+D:\Study\DeTaiLTCSDL\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\Study\DeTaiLTCSDL\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\Study\DeTaiLTCSDL\BusinessLogic\bin\Debug\DataAccess.dll
+D:\Study\DeTaiLTCSDL\BusinessLogic\bin\Debug\DataAccess.pdb
+D:\Study\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+D:\Study\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Study\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+D:\Study\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\Study\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete

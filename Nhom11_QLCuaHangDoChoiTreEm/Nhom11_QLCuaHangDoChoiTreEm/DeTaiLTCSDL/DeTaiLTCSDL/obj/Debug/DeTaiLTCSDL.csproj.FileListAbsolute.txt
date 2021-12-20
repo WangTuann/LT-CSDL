@@ -1,0 +1,145 @@
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe.config
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.pdb
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\Guna.UI.dll
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.AssemblyReference.cache
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.SuggestedBindingRedirects.cache
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Properties.Resources.resources
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.GenerateResource.cache
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CoreCompileInputs.cache
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CopyComplete
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.exe
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.pdb
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Login.resources
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Sell.resources
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Main.resources
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.dll
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.dll
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.pdb
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.pdb
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.OrderToys.resources
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.ToyDetails.resources
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Manager.resources
+D:\Study\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_UpdateType.resources
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.OrderToys.resources
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.ToyDetails.resources
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Main.resources
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Login.resources
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Manager.resources
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Sell.resources
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_UpdateType.resources
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Properties.Resources.resources
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.GenerateResource.cache
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CoreCompileInputs.cache
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.exe
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.pdb
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe.config
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.pdb
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.dll
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.dll
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\Guna.UI.dll
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.pdb
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.pdb
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CopyComplete
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.AssemblyReference.cache
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nhat Huy\Desktop\Đề Tài CSDL\DeTaiLTCSDL\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.StatisticForm.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe.config
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.pdb
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.dll
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.dll
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.pdb
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.pdb
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.AssemblyReference.cache
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.OrderToys.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.ToyDetails.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Main.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Login.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Manager.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Sell.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_UpdateType.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Properties.Resources.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.StatisticForm.resources
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.GenerateResource.cache
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CoreCompileInputs.cache
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CopyComplete
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.exe
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.pdb
+C:\Users\Sun\OneDrive\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Customer.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe.config
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.pdb
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.dll
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.dll
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.pdb
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.pdb
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.AssemblyReference.cache
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.OrderToys.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.ToyDetails.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Customer.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Main.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Login.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Manager.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Sell.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_UpdateType.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Properties.Resources.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.StatisticForm.resources
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.GenerateResource.cache
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CoreCompileInputs.cache
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.exe
+C:\Users\Quang Tuan\Desktop\Quà tặng cuộc sống\Quà tặng cuộc sống\Quà tặng cuộc sống\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe.config
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\Guna.UI.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\Guna.UI2.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.AssemblyReference.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.OrderToys.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.ToyDetails.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Customer.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Main.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Login.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Manager.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Sell.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_UpdateType.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Properties.Resources.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.StatisticForm.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.GenerateResource.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CoreCompileInputs.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.exe
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe.config
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.exe
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DeTaiLTCSDL.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\Guna.UI.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\Guna.UI2.dll
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\BusinessLogic.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\bin\Debug\DataAccess.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.AssemblyReference.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.OrderToys.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.CustomCotrols.ToyDetails.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Customer.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Main.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Login.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Manager.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_SearchCustom.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_Sell.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_UpdateType.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Properties.Resources.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.StatisticForm.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.GenerateResource.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CoreCompileInputs.cache
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.exe
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.pdb
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_ToyDetail.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.Form_CustomerDetail.resources
+C:\Users\Quang Tuan\Desktop\Nhom11_QLCuaHangDoChoiTreEm.rarrrrr\Nhom11_QLCuaHangDoChoiTreEm\Nhom11_QLCuaHangDoChoiTreEm\DeTaiLTCSDL\DeTaiLTCSDL\obj\Debug\DeTaiLTCSDL.csproj.CopyComplete
